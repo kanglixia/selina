@@ -1,0 +1,208 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: .14rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "微软雅黑";
+  text-size-adjust: 100%; }
+
+ul, li {
+  list-style: none; }
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 625%; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+
+input, button {
+  outline: 0; }
+
+button {
+  cursor: pointer; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ccc; }
+
+input {
+  -webkit-appearance: none; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  background: #f0efed; }
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+
+header {
+  width: 100%;
+  height: 0.45rem;
+  background: #06c1ae;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #21897d;
+  padding: 0 .1rem; }
+  header a {
+    color: #fff; }
+    header a:first-child i.icon {
+      font-size: .12rem; }
+    header a:nth-child(2) {
+      flex: 1;
+      position: relative;
+      padding: 0 .1rem; }
+      header a:nth-child(2) input {
+        background: #06A495;
+        border: 0;
+        color: #fff;
+        width: 100%;
+        height: 0.3rem;
+        padding-left: .25rem;
+        border-radius: .05rem; }
+      header a:nth-child(2) i.icon {
+        position: absolute;
+        left: .15rem;
+        top: .08rem; }
+    header a:last-child {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      header a:last-child i.icon {
+        font-size: .18rem; }
+      header a:last-child span {
+        font-size: .12rem; }
+
+.scroll {
+  flex: 1;
+  overflow-y: scroll; }
+
+.ban {
+  width: 100%;
+  height: auto; }
+  .ban img {
+    width: 100%;
+    height: auto;
+    display: block; }
+
+.con {
+  width: 100%;
+  height: 1.8rem; }
+
+.list {
+  width: 100%;
+  height: 1.8rem;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap; }
+  .list li {
+    width: 20%;
+    height: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: .15rem; }
+    .list li i.icon {
+      width: 0.4rem;
+      height: 0.4rem;
+      border-radius: 50%;
+      background: #589EF4;
+      text-align: center;
+      line-height: .4rem;
+      color: #fff;
+      font-size: .18rem; }
+    .list li:nth-child(2n) i.icon {
+      background: #F8A120; }
+    .list li:nth-child(3n) i.icon {
+      background: #F38ACC; }
+    .list li:nth-child(4n) i.icon {
+      background: #51BCF0; }
+    .list li:nth-child(5n) i.icon {
+      background: #FCD635; }
+    .list li span {
+      line-height: .35rem;
+      font-size: .12rem; }
+
+.box {
+  width: 100%;
+  height: 1.2rem;
+  margin-top: .1rem;
+  background: #fff;
+  display: flex; }
+  .box dl {
+    width: 33.3%;
+    height: auto;
+    border-right: 1px solid #eee; }
+    .box dl dt {
+      width: 60%;
+      height: auto;
+      margin-left: .25rem; }
+      .box dl dt img {
+        width: 0.7rem;
+        height: 0.7rem; }
+    .box dl dd {
+      padding-left: .15rem; }
+      .box dl dd h3 {
+        line-height: .3rem;
+        font-weight: bold; }
+      .box dl dd p {
+        font-size: .12rem; }
+    .box dl:nth-child(1) dd h3 {
+      color: #89B053; }
+    .box dl:nth-child(2) dd h3 {
+      color: #EC4C36; }
+    .box dl:nth-child(3) dd h3 {
+      color: #E9629C; }
+
+.box2 {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  margin-top: .1rem;
+  padding: 0 .1rem; }
+  .box2 h2 {
+    width: 100%;
+    height: 0.35rem;
+    border-bottom: 1px solid #eee;
+    line-height: .35rem; }
+  .box2 dl {
+    width: 100%;
+    height: 1rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    position: relative; }
+    .box2 dl dt {
+      position: absolute;
+      left: 0;
+      top: .05rem; }
+      .box2 dl dt img {
+        width: 0.9rem;
+        height: 0.82rem; }
+    .box2 dl dd {
+      padding-left: 1rem; }
+      .box2 dl dd h4 {
+        line-height: .3rem; }
+      .box2 dl dd p {
+        font-size: .12rem; }
+      .box2 dl dd h5 {
+        line-height: .3rem;
+        font-size: .12rem;
+        position: relative; }
+        .box2 dl dd h5 span {
+          color: #41A490;
+          font-weight: bold; }
+        .box2 dl dd h5 b {
+          position: absolute;
+          right: 0; }
+
+/*# sourceMappingURL=style.css.map */
